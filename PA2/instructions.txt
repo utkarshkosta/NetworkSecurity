@@ -1,0 +1,28 @@
+
+PYTHON must be used for this work.
+
+Task 1. Implement RSA in your own code. Do not use any library for this work.
+--DONE
+
+Task 2. Implement the protocol "secure two party computation" provided in the attached file. For any clarification, either contact me or please look at online material which must not be significantly different from what is provided in the file. 
+--DONE
+
+Task 3. Implement a client-server program which will facilitate a client to register itself to the server. Essentially, a server should keep a table of user-hash(password) entry for each user.  Use any cryptographic hash in any of the Python library.
+--DONE
+
+Task 4. Every registered client must declare its public key to the server during registration phase. Server should maintain a table of public key. Any registered client can request separately the public key of any other registered client and the server will supply the corresponding public key.  Request of public key can be made several times.
+--DONE
+
+Task 5. Two registered clients will execute the Secure Two Party Computation two decide who is richer without revealing its wealth to any one. The clients will communicate via the server.
+
+Deadline for submitting the program file is 31-03-2020 midnight.
+
+We shall have a class at 9:00AM for an hour on Wednesday only if i receive any request for clarification. Otherwise, the lab class will continue only after 31-03-2020.
+
+Submission instruction:
+
+1. Submit a single zip file, including read me.
+
+2. Email to both {p20180421,rajibrm}@hyderabad.bits-pilani.ac.in with subject line as Test-2 Programming Assignment - Network Security
+
+3. all the files must be named with your id no. followed by name.
